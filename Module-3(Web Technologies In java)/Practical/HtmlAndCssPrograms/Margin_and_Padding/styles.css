@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px; /* Padding applied to the div */
+    border: 1px solid #000;
+}
+
+.margin-demo {
+    background-color: lightcoral;
+    margin: 20px 0; /* Margin applied to the element */
+    border: 1px solid #000;
+}
+
+.margin-padding-demo {
+    background-color: lightgreen;
+    margin: 20px 10px; /* Different margin values */
+    padding: 10px 20px; /* Different padding values */
+    border: 1px solid #000;
+}

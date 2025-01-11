@@ -1,0 +1,36 @@
++---------------------------+
+|     Client Tier           |
++---------------------------+
+            |
+            V
++---------------------------+
+|  Presentation Layer       |
+|  (Web Container)          |
+|  - JSP/Servlets           |
+|  - HTML/CSS/JavaScript    |
++---------------------------+
+            |
+            V
++---------------------------+
+|  Business Logic Layer     |
+|  (EJB Container)          |
+|  - EJBs (Enterprise Java  |
+|    Beans)                 |
+|  - Business Logic         |
++---------------------------+
+            |
+            V
++---------------------------+
+|  Data Access Layer        |
+|  - JDBC (Java Database    |
+|    Connectivity)          |
+|  - ORM (Object-Relational |
+|    Mapping) frameworks    |
++---------------------------+
+            |
+            V
++---------------------------+
+|  Data Layer               |
+|  - Database               |
++---------------------------+
+

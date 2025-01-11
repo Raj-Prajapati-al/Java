@@ -1,0 +1,15 @@
+/* Styling for the element with the unique ID */
+#unique-title {
+    color: darkblue;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Styling for elements with the common class */
+.common-style {
+    color: darkgreen;
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
