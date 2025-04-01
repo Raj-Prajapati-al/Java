@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Apply to the wrapper or container that holds all content */
+/* Ensure full height for html and body */
+html, body {
+    height: 100%; /* Utilize the full viewport height */
+    margin: 0;    /* Remove default margin */
+}
+
+/* Flexbox container that holds the sidebar, content, and footer */
+.container-xxl {
+    display: flex;             /* Flex container for sidebar and content */
+    flex-direction: row;       /* Sidebar and content are side-by-side */
+    min-height: 100vh;         /* Ensure it takes the full height of the viewport */
+}
+
+.content {
+    display: flex;             /* Makes the content area flexible */
+    flex-direction: column;    /* Stack header, main content, and footer vertically */
+    flex: 1;                   /* Allow content to grow and fill available space */
+    min-height: 100vh;         /* Ensures the content area spans the full height */
+}
+
+.content > .main-content {
+    flex: 1;                   /* Main content takes up remaining vertical space */
+}
+
+footer {
+    margin-top: auto;          /* Pushes the footer to the bottom of the page */
+}
