@@ -9,8 +9,7 @@ Welcome to my Java programming repository! This repository contains a collection
 - [Advanced Java Programs](#advanced-java-programs)
 - [Projects](#projects)
 - [How to Run the Programs](#how-to-run-the-programs)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
